@@ -1,1 +1,51 @@
-body {background:blue}
+body {
+	background:white;
+	width: 940px;
+}
+
+div {
+	padding: 20px;
+	border: 1px;
+}
+
+div.hearts {
+	margin-left: 100px;
+}
+
+
+div.fun {
+	background-image: url("background.jpg");
+	background-color: #cccccc;
+	opacity: 0.9;
+	color: 	#FF1493;
+	text-shadow: 2px 4px black;
+}
+
+div.fun ul{
+	font-size: 24px;
+}
+
+table {
+	padding: 10px;
+	font-family: "verdana";
+	width: 60%
+}
+
+
+td {
+	padding:10px;
+	text-align: center }
+
+th { 
+	padding:10px; 
+	font-family: bold;
+}
+
+div #center {
+	text-align: center;
+	margin-left: 50%;
+}
+
+a:visited {
+	color: hotpink;
+}
