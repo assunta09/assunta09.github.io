@@ -1,17 +1,37 @@
 body {
-	background:white;
+	background:#C8C8C8;
 	width: 940px;
+	font-family: "Verdana";
+	font-size: 14px;
 }
 
 div {
 	padding: 20px;
+	margin-left: 30px;
+	margin-right:20px;
 	border: 1px;
+}
+
+h1{
+	padding: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	border-style: groove;
+	border-width: 3px;
+	border-color: #FF1493;
+}
+
+#strong {
+	font-weight: bold;
 }
 
 div.hearts {
 	margin-left: 100px;
 }
 
+#small {
+	font-size: 12px;
+}
 
 div.fun {
 	background-image: url("background.jpg");
@@ -28,7 +48,8 @@ div.fun ul{
 table {
 	padding: 10px;
 	font-family: "verdana";
-	width: 60%
+	width: 60%;
+    border-collapse: collapse;
 }
 
 
@@ -41,10 +62,12 @@ th {
 	font-family: bold;
 }
 
-div #center {
-	width:313px;
-	margin-left: 30%;
-	margin-right: 30%;
+#center {
+	text-align: center
+}
+
+#center_2 {
+	display: inline-block;
 }
 
 a:visited {
